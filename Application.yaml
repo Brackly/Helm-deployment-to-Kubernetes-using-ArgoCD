@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://brackly.github.io/Helm-deployment-to-Kubernetes-using-ArgoCD/charts
+    chart: nginx-app
+    targetRevision: 0.1.0
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: webservers
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune:true
+    syncOptions:
+      - CreateNamespace=true

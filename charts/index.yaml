@@ -3,7 +3,17 @@ entries:
   nginx-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-18T10:31:29.247847+03:00"
+    created: "2022-08-18T13:41:35.041021+03:00"
+    description: A Helm chart for a sample nginx server deployment
+    digest: 5bf14e4d8f92f5df4fbc300d49acf21149a03b4bfad3a3306775c5aea997b346
+    name: nginx-app
+    type: application
+    urls:
+    - nginx-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-18T13:41:35.025921+03:00"
     description: A Helm chart for a sample nginx server deployment
     digest: 02a9c5d0ac7cce8399bc1925927980c630b5ea77925782dc477026486263e0de
     name: nginx-app
@@ -11,4 +21,4 @@ entries:
     urls:
     - nginx-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-18T10:31:29.040956+03:00"
+generated: "2022-08-18T13:41:34.504468+03:00"
