@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://brackly.github.io/Helm-deployment-to-Kubernetes-using-ArgoCD/charts
     chart: nginx-app
-    targetRevision: 0.1.0
+    targetRevision: 0.1.1
   destination:
     server: https://kubernetes.default.svc
     namespace: webservers

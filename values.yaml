@@ -2,7 +2,9 @@ deployment:
   name: nginx-app
   image: nginx
   port: 8080
+  replicas: 5
 
 service:
-  name: nginx-app-sevice
+  name: nginx-app-sevic
   port: 80
+
