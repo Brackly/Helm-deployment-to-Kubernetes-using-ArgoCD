@@ -3,4 +3,4 @@ name: nginx-app
 description: A Helm chart for a sample nginx server deployment
 type: application
 version: 0.1.2
-appVersion: "1.16.0"
+appVersion: "1.16.1"
