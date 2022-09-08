@@ -21,4 +21,4 @@ Technologies used: #kubernetes #argocd #helm
 
 Challenge faced:
 A key feature of helm is to enable you roll out releases on your cluster and be able to rollback. I found that when I deployed helm charts 
-to Kubernetes via argocd, I was unable to harness this feature as opposed to just deploying directly to Kubernetes without using argocd. Any thoughts?
+to Kubernetes via argocd, I was unable to harness this feature as opposed to just deploying directly to Kubernetes without using argocd. Any thoughts? 
